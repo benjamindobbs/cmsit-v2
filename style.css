@@ -1,5 +1,15 @@
 h1,h2{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 #faq {
@@ -29,7 +39,7 @@ h1,h2{
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: rgba(266, 255, 255, .3);
+    background-color: rgba(4, 170, 109, .5);
     position: fixed;
     height: 100%;
     overflow: visible;
@@ -40,16 +50,20 @@ h1,h2{
   /* Sidebar links */
   .sidebar a {
     display: block;
-    color: black;
+    background-color: #04AA6D;
+    color: white;
+    border-style: solid;
+    border-color: rgba(255,255,255,.5);
+    border-width: 3px;
     padding: 16px;
     text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
   
   }
   
   /* Active/current link */
   .sidebar a.active {
-    background-color: #04AA6D;
-    color: white;
     align-self: end;
     transform: scale(1.25);
     width: 125%;
